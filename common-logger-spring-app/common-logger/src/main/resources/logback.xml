@@ -67,4 +67,20 @@
 		<appender-ref ref="commonLogger-console" />
 		<appender-ref ref="commonLogger-file" />
 	</root>
+	
+	<!--
+    <appender name="AsyncLogger" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="json"/>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="AsyncLogger"/>
+    </root>
+
+    <logger name="com.common.logger" level="debug" additivity="false">
+        <appender-ref ref="AsyncLogger"/>
+    </logger>
+	
+-->
+	
 </Configuration>
